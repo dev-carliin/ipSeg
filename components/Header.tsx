@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Shield } from 'lucide-react';
 import { Button } from './ui/button';
+import Logo from './Logo';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,8 +37,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <a href="#" className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-red-600" />
-            <span className="text-2xl font-bold text-white">IPSEG</span>
+            <Logo/>
           </a>
 
           {/* Desktop Navigation */}

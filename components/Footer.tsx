@@ -1,4 +1,5 @@
-import { Shield } from 'lucide-react';
+
+import Logo from './Logo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,8 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-red-600" />
-              <span className="text-2xl font-bold">IPSEG</span>
+              <Logo />
             </div>
             <p className="text-gray-400">
               Soluções inteligentes em segurança eletrônica para sua casa ou empresa.
