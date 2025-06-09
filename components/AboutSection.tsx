@@ -16,7 +16,7 @@ const AboutSection = () => {
         >
           <h2 className="text-4xl font-bold mb-6 text-white">Quem Somos</h2>
           <p className="text-lg text-gray-400 mb-8">
-            Há mais de 10 anos no mercado, a IPSEG é referência em soluções de segurança eletrônica.
+            Há mais de 5 anos no mercado, a IPSEG é referência em soluções de segurança eletrônica.
             Nossa missão é proporcionar tranquilidade e proteção para nossos clientes através de
             tecnologia de ponta e atendimento personalizado.
           </p>
