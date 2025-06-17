@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/carousel";
 
 const images = [
-  "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&q=80",
+  "/2.svg",
   "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80",
   "https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&fit=crop&q=80",
 ];
@@ -65,7 +65,7 @@ const HeroSection = () => {
             asChild
             className="bg-red-600 hover:bg-red-700"
           >
-            <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento">
+            <a href="https://wa.me/5544988338492?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento">
               Solicite um Orçamento
             </a>
           </Button>

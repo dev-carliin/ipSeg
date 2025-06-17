@@ -15,24 +15,30 @@ const products = [
   {
     title: 'Câmera IP Full HD',
     description: 'Câmera de segurança com resolução 1080p e visão noturna',
-    image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&q=80',
+    image: '/camera.svg',
   },
   {
     title: 'Kit Cerca Elétrica',
     description: 'Kit completo de cerca elétrica com central de choque',
-    image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80',
+    image: '/cerca.svg',
   },
   {
     title: 'Controle de Acesso',
     description: 'Sistema biométrico com reconhecimento facial',
-    image: 'https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80',
+    image: '/controleDeAcesso.svg',
   },
   {
     title: 'Central de Alarme',
     description: 'Central de alarme monitorada com sensores sem fio',
-    image: 'https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&fit=crop&q=80',
+    image: '/alarme.svg',
+  },
+   {
+    title: 'Concertina',
+    description: 'Solução prática e durável para proteger seu muro',
+    image: '/concertina.svg',
   },
 ];
+
 
 const ProductsSection = () => {
   return (
@@ -77,7 +83,7 @@ const ProductsSection = () => {
                     asChild
                     className="w-full bg-red-600 hover:bg-red-700"
                   >
-                    <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos">
+                    <a href="https://wa.me/5544988338492?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos">
                       Saiba Mais
                     </a>
                   </Button>

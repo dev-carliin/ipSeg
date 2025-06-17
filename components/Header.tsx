@@ -95,7 +95,7 @@ const Header = () => {
               asChild
               className="w-full mt-4 bg-red-600 hover:bg-red-700 text-white"
             >
-              <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20mais%20informações">
+              <a href="https://wa.me/5544988338492?text=Olá,%20gostaria%20de%20mais%20informações">
                 Fale Conosco
               </a>
             </Button>

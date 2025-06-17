@@ -19,7 +19,7 @@ const ContactSection = () => {
 
   const onSubmit = (data: FormData) => {
     const message = `Nome: ${data.name}%0AEmail: ${data.email}%0ATelefone: ${data.phone}%0AMensagem: ${data.message}`;
-    window.location.href = `https://wa.me/5511999999999?text=${message}`;
+    window.location.href = `https://wa.me/5544988338492?text=${message}`;
   };
 
   return (
@@ -93,7 +93,7 @@ const ContactSection = () => {
               <Phone className="w-6 h-6 text-red-600 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1 text-white">Telefone</h3>
-                <p className="text-gray-400">(11) 99999-9999</p>
+                <p className="text-gray-400">(44) 98833-8492</p>
               </div>
             </div>
 
@@ -101,7 +101,7 @@ const ContactSection = () => {
               <Mail className="w-6 h-6 text-red-600 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1 text-white">Email</h3>
-                <p className="text-gray-400">contato@ipseg.com.br</p>
+                <p className="text-gray-400">Ipseg1578@gmail.com</p>
               </div>
             </div>
 
@@ -110,15 +110,15 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold mb-1 text-white">Endereço</h3>
                 <p className="text-gray-400">
-                  Av. Paulista, 1000 - Bela Vista<br />
-                  São Paulo - SP, 01310-100
+                  Av. São Francisco, 841 - Jd California<br />
+                  Sarandi - PR
                 </p>
               </div>
             </div>
 
             <div className="w-full h-64 mt-8 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0998641542013!2d-46.65390492375831!3d-23.564616178374753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%201000!5e0!3m2!1sen!2sbr!4v1709234567890!5m2!1sen!2sbr"
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.395264757495!2d-51.88829242388717!3d-23.446202757372955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecda8365dd3e39%3A0xb684d3ee3aa6f2e6!2sAv.%20S%C3%A3o%20Francisco%2C%20841%20-%20Jardim%20California%2C%20Sarandi%20-%20PR%2C%2087112-505!5e0!3m2!1spt-BR!2sbr!4v1750182339740!5m2!1spt-BR!2sbr" 
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

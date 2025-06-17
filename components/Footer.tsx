@@ -40,11 +40,12 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400">(11) 99999-9999</li>
-              <li className="text-gray-400">contato@ipseg.com.br</li>
+              <li className="text-gray-400">(44) 98833-8492</li>
+              <li className="text-gray-400">(44) 99868-6343</li>
+              <li className="text-gray-400">Ipseg1578@gmail.com</li>
               <li className="text-gray-400">
-                Av. Paulista, 1000 - Bela Vista<br />
-                São Paulo - SP
+                Av. São Francisco, 841 - Jd California<br />
+                Sarandi - PR
               </li>
             </ul>
           </div>
