@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/next-script-for-ga */
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -19,6 +20,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="scroll-smooth dark">
+        <head>
+        {/* Google Ads Tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17270584181"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17270584181');
+            `,
+          }}
+        />
+      </head>
       <body className={`${inter.className} bg-background text-foreground`}>
         {children}
         <WhatsAppButton />
