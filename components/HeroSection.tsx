@@ -8,11 +8,12 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+// Adjust the import based on your project structure
 
 const images = [
-  "/2.svg",
-  "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&fit=crop&q=80",
+   "/cameraBaner.svg",
+  "/cercaBaner.svg",
+  "/portaoBaner.svg",
 ];
 
 const HeroSection = () => {
