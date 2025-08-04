@@ -83,7 +83,7 @@ const ProductsSection = () => {
                     asChild
                     className="w-full bg-red-600 hover:bg-red-700"
                   >
-                    <a href="https://wa.me/5544988338492?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos">
+                    <a href="https://wa.me/5544988435752?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20produtos">
                       Saiba Mais
                     </a>
                   </Button>
